@@ -3,27 +3,43 @@
 @tailwind utilities;
 
 :root {
-  --color-pink: #f472b6;
-  --color-pink-light: #f9a8d4;
-  --color-pink-dark: #db2777;
-  --color-gray: #4b5563;
   --color-black: #000000;
+  --color-white: #FFFFFF;
+  --color-gray-light: #F5F5F5;
+  --color-gray: #6B6B6B;
+  --color-gray-dark: #2D2D2D;
 }
 
 body {
-  font-family: var(--font-montserrat), sans-serif;
+  font-family: var(--font-inter), sans-serif;
+  line-height: 1.6;
 }
 
-.font-playfair {
-  font-family: var(--font-playfair), serif;
+.font-source-serif {
+  font-family: var(--font-source-serif), serif;
 }
 
-.font-raleway {
-  font-family: var(--font-raleway), sans-serif;
+.font-inter {
+  font-family: var(--font-inter), sans-serif;
 }
 
-.font-montserrat {
-  font-family: var(--font-montserrat), sans-serif;
+/* Estilo Intercept para títulos */
+.article-title {
+  font-family: var(--font-source-serif), serif;
+  font-weight: 600;
+  line-height: 1.2;
 }
 
-/* Dark mode será adicionado amanhã */
+/* Estilo para texto do artigo */
+.article-body {
+  font-size: 1.125rem;
+  line-height: 1.8;
+}
+
+/* Separador estilo Intercept */
+.article-divider {
+  border: none;
+  height: 1px;
+  background-color: #e5e5e5;
+  margin: 2rem 0;
+}
