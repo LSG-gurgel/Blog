@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-pink: #f472b6;
+  --color-pink-light: #f9a8d4;
+  --color-pink-dark: #db2777;
+  --color-gray: #4b5563;
+  --color-black: #000000;
+}
+
+body {
+  font-family: var(--font-montserrat), sans-serif;
+}
+
+.font-playfair {
+  font-family: var(--font-playfair), serif;
+}
+
+.font-raleway {
+  font-family: var(--font-raleway), sans-serif;
+}
+
+.font-montserrat {
+  font-family: var(--font-montserrat), sans-serif;
+}
+
+/* Dark mode será adicionado amanhã */
