@@ -32,14 +32,12 @@ export default function RootLayout({
           <nav className="container mx-auto px-4">
             <div className="flex justify-between items-center">
               <Link href="/" className="font-source-serif text-2xl font-semibold">
-                Crochetando
+                Tudo aqui
               </Link>
               <div className="flex gap-6 text-sm">
-                <Link href="/" className="hover:text-gray-600 transition-colors">
-                  Home
-                </Link>
+               
                 <Link href="/about" className="hover:text-gray-600 transition-colors">
-                  Sobre
+                  Por quê Crochetamos?
                 </Link>
               </div>
             </div>
@@ -53,7 +51,7 @@ export default function RootLayout({
         {/* Footer minimalista */}
         <footer className="border-t border-gray-300 py-8 text-center">
           <p className="text-sm text-gray-600">
-            © 2024 Crochetando - Todos os direitos reservados
+            © 2025 Crochetando - Por: Lô Gurgel.
           </p>
         </footer>
       </body>

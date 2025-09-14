@@ -30,19 +30,19 @@ const posts = [
 export default function Home() {
   return (
     <div className="max-w-3xl mx-auto">
-      {/* Cabeçalho estilo Intercept */}
+    
       <div className="mb-12 text-center">
         <h1 className="font-source-serif text-4xl font-semibold mb-4">
-          Crochetando
+          CROCHETANDO
         </h1>
         <p className="text-gray-600 text-lg">
-          Vamos falar de crochê além das linhas, agulhas e pontos
+          Vamos falar de crochê além das linhas, agulhas e pontos.
         </p>
       </div>
 
       <hr className="article-divider" />
 
-      {/* Posts no estilo Intercept */}
+     
       <div className="space-y-12">
         {posts.map(post => (
           <PostCard key={post.id} post={post} />
