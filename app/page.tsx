@@ -3,25 +3,25 @@ import PostCard from '@/components/PostCard'
 const posts = [
   {
     id: 1,
-    title: "O Papel do Crochê Artesanal na Moda Consciente",
-    excerpt: "VEM HAVENDO uma transformação significativa na indústria da moda, com o crochê artesanal emergindo como resposta sustentável à fast fashion. Em decorrência disso, marcas estão reavaliando suas práticas de produção.",
-    date: "13 de setembro de 2025",
+    title: "O papel do Crochê artesanal na moda consciente",
+    excerpt: "A resposta sustentável e elegante à fast fashion.",
+    date: "12 de setembro de 2025",
     slug: "croche-moda-consciente",
     category: "Moda Sustentável"
   },
   {
     id: 2,
-    title: "Desmistificando o Crochê: Por Que Essa Arte Não é Só 'Coisa de Vó'",
-    excerpt: "VEM HAVENDO uma queda impressionante nos estereótipos associados ao crochê. Segundo dados de pesquisas recentes, a prática conquistou espaço entre jovens e na cultura contemporânea.",
-    date: "10 de janeiro de 2024", 
+    title: "Desmistificando o Crochê: Por que essa arte não é só 'Coisa de Vó'",
+    excerpt: "Crochê Moderno: A revolução das agulhas e da juventude.",
+    date: "11 de setembro de 2025", 
     slug: "desmistificando-croche",
     category: "Cultura"
   },
   {
     id: 3,
-    title: "Crochê Terapêutico: Os Benefícios Mentais de Tecer com as Mãos",
-    excerpt: "VEM HAVENDO um aumento significativo no interesse pelo crochê como ferramenta terapêutica. Em meio ao estresse da era digital, a prática manual oferece refúgio e benefícios mentais comprovados.",
-    date: "5 de janeiro de 2024",
+    title: "Os Benefícios Mentais de Tecer com as Mãos",
+    excerpt: " Crochê e Saúde Mental: 5 Benefícios Terapêuticos Comprovados.",
+    date: "10 de setembro de 2025",
     slug: "croche-terapeutico",
     category: "Bem-Estar"
   }

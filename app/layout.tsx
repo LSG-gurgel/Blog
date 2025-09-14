@@ -3,7 +3,7 @@ import type { Metadata } from 'next'
 import { Source_Serif_4, Inter } from 'next/font/google'
 import Link from 'next/link'
 
-// Fontes estilo Intercept
+
 const sourceSerif = Source_Serif_4({
   subsets: ['latin'],
   variable: '--font-source-serif',
@@ -15,7 +15,7 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: 'Crochetando - Além das linhas, agulhas e pontos',
+  title: 'CROCHETANDO - Além das linhas, agulhas e pontos',
   description: 'Crochê artesanal: A resposta sustentável e elegante à fast fashion',
 }
 
@@ -27,7 +27,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR" className={`${sourceSerif.variable} ${inter.variable}`}>
       <body className="font-inter bg-white text-gray-900">
-        {/* Header minimalista estilo Intercept */}
+        
         <header className="border-b border-gray-300 py-6">
           <nav className="container mx-auto px-4">
             <div className="flex justify-between items-center">

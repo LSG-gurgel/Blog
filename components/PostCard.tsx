@@ -17,7 +17,7 @@ export default function PostCard({ post }: { post: Post }) {
         {post.category}
       </span>
       
-      {/* Título estilo Intercept */}
+     
       <h2 className="font-source-serif text-2xl font-semibold mb-4 hover:text-gray-600 transition-colors">
         <Link href={`/posts/${post.slug}`}>
           {post.title}
