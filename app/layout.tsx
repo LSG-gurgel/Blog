@@ -48,7 +48,7 @@ export default function RootLayout({
           {children}
         </main>
         
-        {/* Footer minimalista */}
+       
         <footer className="border-t border-gray-300 py-8 text-center">
           <p className="text-sm text-gray-600">
             © 2025 Crochetando - Por: Lô Gurgel.
