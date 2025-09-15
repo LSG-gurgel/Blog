@@ -36,6 +36,7 @@ Blog elegante sobre crochê contemporâneo, sem os esteriótipos de artesanato/a
 3. **Crochê terapêutico: Os benefícios mentais de tecer com as mãos**
    - Slug: `/posts/croche-terapeutico`
    - Categoria: Bem-Estar
+   - **ARTIGO NÃO ENCONTRADO**
 
 ## 🛠️ Como Executar Localmente
 
