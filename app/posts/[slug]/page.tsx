@@ -3,7 +3,7 @@ import Link from 'next/link'
 const posts = [
   {
     slug: "croche-moda-consciente",
-    title: "O Papel do Crochê na moda sustentável",
+    title: "Slow fashion: O Papel do Crochê na moda sustentável",
     content: `
       <p><strong>A moda rápida (fast fashion) dominou o mundo</strong>, mas seu custo ambiental e social está sendo cada vez mais questionado. Nesse cenário, surge um movimento forte e belo em direção ao slow fashion, e o crochê artesanal se posiciona como um dos pilares mais importantes dessa revolução. Mais do que uma tendência, é uma escolha consciente por peças com alma, história e um impacto positivo no mundo.</p>
 
@@ -17,7 +17,7 @@ const posts = [
 
       <p>O artesão tem a liberdade de escolher fios de origens responsáveis, como algodão orgânico, linho, bambu ou mesmo fios feitos de garrafas PET recicladas. Além disso, a prática do "upcycling" (transformar fios de peças antigas em novas) é muito comum.</p>
 
-      <h2>O Consumidor Consciente:</h2>
+      <h2>O consumidor consciente:</h2>
       <p>O novo consumidor não quer apenas um produto; ele quer uma experiência, uma história e a certeza de que sua compra está alinhada com seus valores. Vestir uma peça de crochê artesanal é uma declaração de apoio à criatividade individual, à sustentabilidade e à moda com propósito.</p>
 
       <h2>ou seja...</h2>
@@ -105,7 +105,7 @@ export default function PostPage({ params }: { params: { slug: string } }) {
         
         <div className="flex items-center gap-4 text-sm text-gray-600">
           <time>{post.date}</time>
-          <span>•</span>
+          <span> • </span>
           <span>Por {post.author}</span>
         </div>
       </div>

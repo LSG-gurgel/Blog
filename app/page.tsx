@@ -3,7 +3,7 @@ import PostCard from '@/components/PostCard'
 const posts = [
   {
     id: 1,
-    title: "O Papel do Crochê na moda sustentável",
+    title: "Slow fashion: O Papel do Crochê na moda sustentável",
     excerpt: "A resposta sustentável e elegante à fast fashion.",
     date: "12 de setembro de 2025",
     slug: "croche-moda-consciente",
@@ -19,7 +19,7 @@ const posts = [
   },
   {
     id: 3,
-    title: "Os benefícios mentais de tecer com as mãos",
+    title: "Crochê terapêutico: Os benefícios mentais de tecer com as mãos",
     excerpt: " Crochê e Saúde Mental: 5 Benefícios Terapêuticos Comprovados.",
     date: "10 de setembro de 2025",
     slug: "croche-terapeutico",
@@ -36,7 +36,7 @@ export default function Home() {
           Crochetando
         </h1>
         <p className="text-gray-600 text-lg">
-          Vamos falar de crochê além das linhas, agulhas e pontos.
+          Vamos falar de crochê além das linhas, agulhas e pontos
         </p>
       </div>
 
