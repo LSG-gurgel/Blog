@@ -1,36 +1,84 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+#### Projeto 9 - BLOG
+Atividade para prática de [Next.js](https://nextjs.org) do Programa Desenvolve do Grupo Boticário.
 
-## Getting Started
+# blog Crochetando
+Blog elegante sobre crochê contemporâneo, sem os esteriótipos de artesanato/artesanal.
 
-First, run the development server:
+#### *Vamos falar de crochê além das linhas, agulhas e pontos.*
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🧶 Características:
+**Design Editorial**: Estilo inspirado no Intercept Brasil - minimalista e sofisticado, com fontes de boa legibilidade;
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Conteúdo Qualificado**: Artigos aprofundados sobre crochê na moda sustentável;
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+**Responsivo**: Adaptado para desktop, tablet e mobile;
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+**Performance Otimizada**:Desenvolvido com Next.js 14 e App Router.
 
-## Learn More
+## 🚀 Tecnologias Utilizadas
 
-To learn more about Next.js, take a look at the following resources:
+- **Framework**: Next.js 14 com App Router
+- **Linguagem**: TypeScript
+- **Estilização**: Tailwind CSS
+- **Fontes**: Source Serif 4 e Inter
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🎨 Posts Disponíveis
 
-## Deploy on Vercel
+1. **Slow fashion: O Papel do Crochê na moda sustentável**
+   - Slug: `/posts/croche-moda-consciente`
+   - Categoria: Moda Sustentável
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. **Desmistificando o Crochê: Por que essa arte não é só 'Coisa de Vó'**
+   - Slug: `/posts/desmistificando-croche`
+   - Categoria: Cultura
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+3. **Crochê terapêutico: Os benefícios mentais de tecer com as mãos**
+   - Slug: `/posts/croche-terapeutico`
+   - Categoria: Bem-Estar
+
+## 🛠️ Como Executar Localmente
+
+### Pré-requisitos
+- Node.js 18+ 
+- npm ou yarn
+
+## Instalação
+
+1. **Clonar repositório**
+   ```bash
+   git clone https://github.com/LSG-gurgel/Blog.git
+   cd Blog
+
+2. **Instalar as dependências**
+   ```basch
+    npm install
+    # ou
+    yarn install
+
+3. **Executar o servidor de desenvolvimento**
+    ````bash
+    npm run dev
+    # ou
+    yarn dev
+
+4. **Acesse o projeto**
+   Abra http://localhost:3000 no seu navegador.
+
+## 📝 Para adicionar Novos Posts
+Edite o arquivo app/posts/[slug]/page.tsx e adicione novos objetos ao array posts:
+
+  ````basch
+typescript
+{
+  slug: "novo-post",        // URL amigável (sem espaços)
+  title: "Título do Post",  // Título completo
+  content: `                // Conteúdo em HTML
+    <p>Seu conteúdo aqui...</p>
+    <h2>Subtítulo</h2>
+  `,
+  date: "20 Janeiro 2024",  // Data de publicação
+  category: "Categoria",    // Categoria do post
+  author: "Nome do Autor"   // Autor do post
+}
+
