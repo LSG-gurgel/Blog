@@ -19,7 +19,7 @@ export default function About() {
         <h2>Contato</h2>
         <p>Email: <a href="mailto:crochedazeze@gmail.com.br" target="_blank" className="text-blue-600 hover:underline">crochedazeze@gmail.com.br</a></p>
         <p>Instagram: <a href="https://www.instagram.com/crochedazeze" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">@crochedazeze</a> </p>
-        <p>Whats: <a href="https://wa.me/5527981445128" target="_blank" className="text-blue-600 hover:underline">27 98144.5128</a></p>
+        <p>Whats: <a href="https://wa.me/5527933000610" target="_blank" className="text-blue-600 hover:underline">27 98144.5128</a></p>
       </div>
     </div>
   )
