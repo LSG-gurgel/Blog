@@ -19,7 +19,7 @@ const posts = [
   },
   {
     id: 3,
-    title: "Os Benefícios Mentais de Tecer com as Mãos",
+    title: "Os benefícios mentais de tecer com as mãos",
     excerpt: " Crochê e Saúde Mental: 5 Benefícios Terapêuticos Comprovados.",
     date: "10 de setembro de 2025",
     slug: "croche-terapeutico",

@@ -26,7 +26,28 @@ const posts = [
     date: "13 de setembro de 2025",
     category: "Moda Sustentável",
     author: "Lô Gurgel"
-  }
+  },
+    {
+    slug: "desmistificando-croche",
+    title: "Desmistificando o Crochê: Por que essa qrte não é só 'Coisa de Vó'",
+    content: `
+      <p><strong>Imagine a cena: uma cadeira de balanço, uma vovó tranquila fazendo crochê.</strong> Esse era o estereótipo. Agora, apague essa imagem. Bem-vindo ao crochê do século 21! Hoje, as agulhas estão nas mãos de uma geração que está reinventando essa arte, transformando fios em peças de street style, acessórios para festivais e decoração de apartamento moderno.</p>
+
+      <h2>Por que o crochê é uma sensação entre os jovens?</h2>
+      
+      <p>Em um mundo de fast fashion, onde todos vestem as mesmas peças, o crochê oferece a oportunidade única de criar algo totalmente personalizado e exclusivo. Não há duas peças iguais. É a antítese da produção em massa.
+      <p>A geração atual é profundamente consciente do impacto ambiental. O crochê se alinha perfeitamente a isso, permitindo a escolha de fios sustentáveis, o reaproveitamento de materiais e a criação de peças duráveis que fogem do ciclo descartável da moda.</p>
+      <p>O crochê moderno não é solitário. Ele floresceu nas redes sociais. Jovens compartilham padrões, trocam dicas, participam de desafios (#crochetchallenge) e formam comunidades online vibrantes e solidárias. É uma arte conectada.</p>
+      <p>Diferente de outros hobbies, é possível começar com uma agulha e um novelo e, em poucas horas, terminar um item como uma bandana. Essa satisfação imediata é um grande atrativo.</p>
+
+      <h2>ou seja...</h2>
+      <p>O crochê derrubou a cadeira de balanço e invadiu as mesas de bares, os parques e os lineups dos festivais. Ele não é mais um símbolo de um passado distante, mas uma ferramenta de criatividade para um futuro mais expressivo e consciente. É sobre comunidade, sustentabilidade e, acima de tudo, sobre fazer algo lindo e significativo com as próprias mãos. 
+      <p><strong>Quebre o preconceito:</strong> pegue uma agulha e descubra por que milhões de jovens ao redor do mundo estão absolutamente obcecados por essa arte.</p>
+    `,
+    date: "11 de setembro de 2025 ",
+    category: "Cultura", 
+    author: "Lô e Zezé"
+  },
 ]
 
 export default function PostPage({ params }: { params: { slug: string } }) {
