@@ -12,7 +12,7 @@ interface Post {
 export default function PostCard({ post }: { post: Post }) {
   return (
     <article className="mb-12">
-      {/* Categoria */}
+ 
       <span className="inline-block text-xs uppercase tracking-wider text-gray-500 mb-2">
         {post.category}
       </span>

@@ -3,7 +3,7 @@ import PostCard from '@/components/PostCard'
 const posts = [
   {
     id: 1,
-    title: "O papel do Crochê artesanal na moda consciente",
+    title: "O Papel do Crochê na moda sustentável",
     excerpt: "A resposta sustentável e elegante à fast fashion.",
     date: "12 de setembro de 2025",
     slug: "croche-moda-consciente",
@@ -33,7 +33,7 @@ export default function Home() {
     
       <div className="mb-12 text-center">
         <h1 className="font-source-serif text-4xl font-semibold mb-4">
-          CROCHETANDO
+          Crochetando
         </h1>
         <p className="text-gray-600 text-lg">
           Vamos falar de crochê além das linhas, agulhas e pontos.

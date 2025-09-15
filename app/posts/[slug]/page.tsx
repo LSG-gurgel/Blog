@@ -3,7 +3,7 @@ import Link from 'next/link'
 const posts = [
   {
     slug: "croche-moda-consciente",
-    title: "O Papel do Crochê Artesanal na Moda Consciente",
+    title: "O Papel do Crochê na moda sustentável",
     content: `
       <p><strong>A moda rápida (fast fashion) dominou o mundo</strong>, mas seu custo ambiental e social está sendo cada vez mais questionado. Nesse cenário, surge um movimento forte e belo em direção ao slow fashion, e o crochê artesanal se posiciona como um dos pilares mais importantes dessa revolução. Mais do que uma tendência, é uma escolha consciente por peças com alma, história e um impacto positivo no mundo.</p>
 
@@ -21,7 +21,7 @@ const posts = [
       <p>O novo consumidor não quer apenas um produto; ele quer uma experiência, uma história e a certeza de que sua compra está alinhada com seus valores. Vestir uma peça de crochê artesanal é uma declaração de apoio à criatividade individual, à sustentabilidade e à moda com propósito.</p>
 
       <h2>ou seja...</h2>
-      <p>O crochê manual não é um retorno ao passado, mas um passo necessário em direção a um futuro mais ético e sustentável para a moda. Ele nos lembra o valor do feito à mão, da paciência e da singularidade. Escolher o crochê é escolher qualidade sobre quantidade, história sobre anonimato e consciência sobre consumo desenfreado.</p>
+      <p>O crochê manual não é um retorno ao passado, mas um passo necessário em direção a um futuro mais ético e sustentável para a moda. Ele nos lembra o valor do feito à mão, da paciência e da singularidade. <p>Escolher o crochê é escolher qualidade sobre quantidade, história sobre anonimato e consciência sobre consumo desenfreado.</p>
     `,
     date: "13 de setembro de 2025",
     category: "Moda Sustentável",
@@ -46,7 +46,29 @@ const posts = [
     `,
     date: "11 de setembro de 2025 ",
     category: "Cultura", 
-    author: "Lô e Zezé"
+    author: "Lô Gurgel e Zezé"
+  },
+
+ {
+    slug: "croche-terapeutico",
+    title: "Crochê terapêutico: Os benefícios mentais de tecer com as mãos'",
+    content: `
+      <p><strong>Em um mundo cada vez mais digital e acelerado,</strong> encontrar uma válvula de escape para o estresse e a ansiedade é crucial. E a solução pode estar, surpreendentemente, em um par de agulhas e um novelo de fio. A prática do crochê vai muito além da criação de peças bonitas; ela é uma poderosa forma de terapia manual, um tipo de "meditação ativa" que acalma a mente e restaura o equilíbrio interior.</p>
+
+      <h2>Os 5 Benefícios Terapêuticos do Crochê:</h2>
+      
+      <p><strong>[1] Redução do Estresse e Ansiedade:</strong> O movimento repetitivo e rítmico das pontos induz um estado de relaxamento profundo, semelhante ao alcançado na meditação. Ele ajuda a baixar os batimentos cardíacos e a reduzir os níveis de cortisol, o hormônio do estresse.</p>
+      <p><strong>[2] Foco no Momento Presente (Mindfulness):</strong> Para contar pontos e seguir um padrão, sua mente precisa se concentrar totalmente na tarefa. Isso afasta pensamentos intrusivos e preocupações sobre o passado ou futuro, te ancorando firmemente no "aqui e agora".</p>
+      <p><strong>[3] Senso de Realização e Autoestima:</strong> Terminar uma carreira, concluir um projeto pequeno ou finalmente finalizar aquela bolsinha dos sonhos libera dopamina, o neurotransmissor da recompensa. Essa sensação de "dever cumprido" é um poderoso combustível para a autoconfiança.</p>
+      <p><strong>[4] Estimulação Cognitiva:</strong> O crochê é um exercício para o cérebro. Ele envolve leitura de gráficos ou receitas, coordenação motora fina, cálculo matemático (para não errar as pontos) e resolução de problemas. Tudo isso mantém a mente afiada.</p>
+      <p><strong>[5] Conexão Social e Combate à Solidão: </strong> Grupos de crochê (presenciais ou online) oferecem um senso de comunidade e pertencimento. Compartilhar materiais, progressos, dificuldades e conquistas com pessoas que têm um interesse em comum é um remédio poderoso contra a solidão.</p>
+
+      <h2>ou seja...</h2>
+      <p>O crochê é mais do que um passatempo; é uma ferramenta de cuidado. Ele oferece um refúgio tangível do caos do dia a dia, permitindo que você crie não apenas peças de arte, mas também um espaço de tranquilidade mental. <p>Na próxima vez que você se sentir sobrecarregado, considere trocar a tela do celular por uma agulha de crochê. <p>Sua mente agradecerá.</p>
+    `,
+    date: "11 de setembro de 2025 ",
+    category: "Cultura", 
+    author: "Lô Gurgel e neuropsicóloga Dra. Ana Carolina"
   },
 ]
 
@@ -58,7 +80,7 @@ export default function PostPage({ params }: { params: { slug: string } }) {
       <div className="max-w-3xl mx-auto text-center py-12">
         <h1 className="font-source-serif text-2xl mb-4">Artigo não encontrado</h1>
         <Link href="/" className="text-gray-600 hover:text-gray-800">
-          ← Voltar para home
+          ← Voltar
         </Link>
       </div>
     )

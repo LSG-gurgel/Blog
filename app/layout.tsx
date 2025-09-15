@@ -15,8 +15,8 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: 'CROCHETANDO - Além das linhas, agulhas e pontos',
-  description: 'Crochê artesanal: A resposta sustentável e elegante à fast fashion',
+  title: 'Crochetando',
+  description: 'Além das linhas, agulhas e pontos',
 }
 
 export default function RootLayout({
